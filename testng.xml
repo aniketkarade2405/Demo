@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNG_features.Keywords1"/>
+      <class name="testNG_features.Keyword1"/>
+      <class name="testNG_features.Keyword4"/>
+      <class name="testNG_features.Keyword5"/>
+      <class name="testNG_features.Annotations1"/>
+      <class name="testNG_features.Keyword2"/>
+      <class name="testNG_features.Keyword3"/>
+      <class name="testNG_features.Keyword8"/>
+      <class name="testNG_features.Keyword9"/>
+      <!--skip class name="testNG_features.Keyword6"/-->
+      <class name="testNG_features.Annotations"/>
+      <class name="testNG_features.Keyword7"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
